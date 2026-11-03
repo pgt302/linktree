@@ -29,7 +29,7 @@ export default function ThemeToggle() {
       type="button"
       onClick={toggle}
       aria-label={isDark ? "라이트 모드로 전환" : "다크 모드로 전환"}
-      className="absolute right-4 top-4 rounded-full border-2 border-foreground/80 px-3 py-1 text-sm"
+      className="glass absolute right-5 top-5 rounded-full px-3.5 py-1.5 text-xs font-medium transition duration-300 hover:bg-white/70 dark:hover:bg-white/12"
       suppressHydrationWarning
     >
       {isDark ? "☀️ 라이트" : "🌙 다크"}
